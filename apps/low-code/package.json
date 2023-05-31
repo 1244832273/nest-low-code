@@ -1,0 +1,15 @@
+{
+  "name": "low-code",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "cd .. && pnpm start:lowcode"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
