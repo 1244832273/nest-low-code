@@ -1,5 +1,5 @@
 {
-  "name": "nest-low-code",
+  "name": "nest-monorepo",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -69,7 +69,11 @@
     "coverageDirectory": "./coverage",
     "testEnvironment": "node",
     "roots": [
-      "<rootDir>/apps/"
-    ]
+      "<rootDir>/apps/",
+      "<rootDir>/libs/"
+    ],
+    "moduleNameMapper": {
+      "^@comm/comm(|/.*)$": "<rootDir>/libs/comm/src/$1"
+    }
   }
 }
